@@ -24,7 +24,7 @@ public class GreeterServiceIntegrationTests extends Assert {
         String greeting = greeterService.sayHello(caller);
 
         // Then
-        assertEquals("Hello World, Duke", greeting);
+        assertEquals("Hej Verden, Duke", greeting);
     }
 
 
